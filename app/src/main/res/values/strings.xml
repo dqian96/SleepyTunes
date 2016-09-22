@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--main screen-->
+    <string name="app_name">SleepyTunes</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainTitle">SleepyTunes</string>
+    <string name="musicOptionButton">Sleepy Time</string>
+    <string name="appInfoOptionButton">App Information</string>
+
+
+    <!--AppInfoActivity-->
+    <string name="appInfoActivityCredits">Application Information:</string>
+    <string name="title_activity_app_info">Application Information</string>
+    <string name="appInfoCreditsInformation">\nSleepyTunes is developed by  David Qian, a Software Engineering
+     student at the University of Waterloo. \n\nArtwork for this project was developed by Jason Sun, a Computer Science student at the
+        University of Toronto.\n\nThe project used API from the open source framework \"achartengine.\" This project uses the typeface
+        \"Roboto\" created by the artist Christian Robertson. \n\nThis project is licensed under the Apache 2.0 license.
+
+     For more information about me and my other projects, check out my personal
+        website at: \n\ndavidqian.ca.\n\n2015 David Qian
+    </string>
+
+    <!--How to use the app-->
+    <string name="titleHowToUseAppButton">How to use</string>
+    <string name="howToUseString">SleepyTunes makes it easier for you to fall
+    asleep while listening to your favourite music! This application will slowly
+    decrease the volume to zero based on a timer you set. To use, simply
+    play music from a 3rd party application (playlists or the radio) and set
+    an initial volume using the volume up and down buttons. When you\'re ready, head
+    back into the app and select a timer and method of decay. Note that you cannot adjust
+    the volume afterwards. That\'s it! Hope you enjoy this app! </string>
+
+    <!--Music Timer Activity-->
+    <string name="title_activity_music_timer">Sleepy Time</string>
+    <string name="volumeDecayFunction">Type of Decay: </string>
+    <string name="hoursMusicTimer">Decay Time (hours) </string>
+    <string name="minutesMusicTimer">Decay Time (minutes) </string>
+    <string name="startVolumeTimerButton">Start Timer</string>
+    <string name="stopVolumeTimerButton">Stop Timer</string>
+    <string name="resetVolumeTimer">Reset Timer</string>
+
+
+    <string-array name="type_of_decay_functions">
+        <item>Linear Decay</item>
+        <item>Parabolic Decay</item>
+        <item>Logarithmic Decay</item>
+        <item>Exponential Decay</item>
+    </string-array>
+
+
+
+
+</resources>

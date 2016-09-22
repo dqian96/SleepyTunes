@@ -1,0 +1,77 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="@string/musicOptionButton"
+        android:id="@+id/musicTimerOptionButton"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="openMusicTimerActivity"
+        android:textAllCaps="false"
+        android:background="#ffffffff"
+        android:layout_above="@+id/howToUseAppButton"
+        android:layout_alignLeft="@+id/appInfoOptionButton"
+        android:layout_alignStart="@+id/appInfoOptionButton"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black_project_color" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="@string/appInfoOptionButton"
+        android:id="@+id/appInfoOptionButton"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-thin"
+        android:textAllCaps="false"
+        android:onClick="openAppInfoActivity"
+        android:background="#ffffffff"
+        android:textColor="@color/black_project_color" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="@string/titleHowToUseAppButton"
+        android:id="@+id/howToUseAppButton"
+        android:layout_above="@+id/appInfoOptionButton"
+        android:layout_alignRight="@+id/musicTimerOptionButton"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-thin"
+        android:layout_alignEnd="@+id/musicTimerOptionButton"
+        android:onClick="howToUseDialog"
+        android:background="#ffffffff"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black_project_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mainTitle"
+        android:id="@+id/mainTitleTextView"
+
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#ffffffff"
+        android:textSize="40dp"
+        android:layout_marginTop="110dp" />
+
+
+</RelativeLayout>
+
